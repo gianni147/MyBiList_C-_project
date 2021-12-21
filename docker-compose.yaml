@@ -1,0 +1,41 @@
+version: '3'
+
+services:
+  bilist-api:
+    build: ./ASPNET
+    container_name: bilist-api
+    ports:
+      - 8000:80
+    networks:
+      - bilist_net
+
+  bilist-db:
+    image: mysql
+    container_name: bilist-db
+    ports: 
+      - 13306:3306
+    environment:
+      MYSQL_USER: bilist_user
+      MYSQL_PASSWORD: bilist_pass
+      MYSQL_ROOT_PASSWORD: bilist_pass
+      MYSQL_DATABASE: bilist
+    volumes:
+      - mysqldata:/var/lib/mysql
+    networks:
+      - bilist_net
+
+
+  bilist-migration:
+    build: 
+      context: ./ASPNET
+      dockerfile: Dockerfile.migrations
+    container_name: bilist-migrations
+    tty: true
+    networks:
+      - bilist_net
+
+networks: 
+  bilist_net:
+
+volumes: 
+  mysqldata:

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyBiList.EnterBiListView"
+             Title="Add">
+
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Padding="15" Spacing="20">
+            
+            <Label Text="Person"
+               FontSize="50"
+               FontAttributes="Bold"
+               HorizontalOptions="Center" />
+
+            <Frame BackgroundColor="#BF043055" HasShadow="False">
+                <StackLayout Orientation="Vertical" Spacing="10">
+
+                    <Entry x:Name="Name" Text="{Binding Name}" Placeholder="Naam"   
+                           PlaceholderColor="Gray" HeightRequest="40"   
+                           TextColor="White"/>
+                    <DatePicker x:Name="Date" Date="{Binding Date}" Format="yyyy_MM_dd"  HeightRequest="40"   
+                           TextColor="White"/>
+                    <Entry x:Name="Idea" Text="{Binding Idea}" Placeholder="ideeën"   
+                           PlaceholderColor="Gray" HeightRequest="40"   
+                           TextColor="White"/>
+
+                </StackLayout>
+            </Frame>
+            <Button Command="{Binding SaveCommand}" Text="Save" TextColor="White"  
+                    FontAttributes="Bold" FontSize="Large" HorizontalOptions="FillAndExpand"  
+                    BackgroundColor="#088da5" />
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
+
+
+
+<!--
+<ContentPage.Content>
+    <StackLayout>
+        <Entry Text="{Binding Id}"/>
+        <Entry Text="{Binding Name}"/>
+        <Entry Text="{Binding Image}"/>
+        <Entry Text="{Binding Date}"/>
+        <Entry Text="{Binding Idea}"/>
+        <Button Text="Save" Command="{Binding SaveCommand}"/>
+    </StackLayout>
+</ContentPage.Content>
+    
+    
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Padding="30" Spacing="40">
+            <BoxView HeightRequest="10"/>
+            <Image HorizontalOptions="Center" WidthRequest="300" Source="maco.jpg"/>
+            <Frame BackgroundColor="#BF043055" HasShadow="False">
+                <StackLayout Orientation="Vertical" Spacing="10">
+                    <Label Text="Username" />
+
+                    <Entry x:Name="Id" Text="{Binding Id}" Placeholder="Id"   
+                           PlaceholderColor="White" HeightRequest="40"   
+                           TextColor="White"/>
+                    <Entry x:Name="Name" Text="{Binding Name}" Placeholder="Jan Janssens"   
+                           PlaceholderColor="White" HeightRequest="40"   
+                           TextColor="White"/>
+                    <Entry x:Name="Date" Text="{Binding Date}" Placeholder="27/12/2001"   
+                           PlaceholderColor="White" HeightRequest="40"   
+                           TextColor="White"/>
+                    <Entry x:Name="Idea" Text="{Binding Idea}" Placeholder="Nintendo switch"   
+                           PlaceholderColor="White" HeightRequest="40"   
+                           TextColor="White"/>
+
+                </StackLayout>
+            </Frame>
+            <Button Command="{Binding SaveCommand}" Text="Save" TextColor="White"  
+                    FontAttributes="Bold" FontSize="Large" HorizontalOptions="FillAndExpand"  
+                    BackgroundColor="#088da5" />
+        </StackLayout>
+    </ContentPage.Content>
+    -->

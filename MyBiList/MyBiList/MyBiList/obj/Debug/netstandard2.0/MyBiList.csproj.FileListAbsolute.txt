@@ -1,0 +1,16 @@
+C:\project_c#\MyBiList\MyBiList\MyBiList\bin\Debug\netstandard2.0\MyBiList.deps.json
+C:\project_c#\MyBiList\MyBiList\MyBiList\bin\Debug\netstandard2.0\MyBiList.dll
+C:\project_c#\MyBiList\MyBiList\MyBiList\bin\Debug\netstandard2.0\ref\MyBiList.dll
+C:\project_c#\MyBiList\MyBiList\MyBiList\bin\Debug\netstandard2.0\MyBiList.pdb
+C:\project_c#\MyBiList\MyBiList\MyBiList\obj\Debug\netstandard2.0\MyBiList.GeneratedMSBuildEditorConfig.editorconfig
+C:\project_c#\MyBiList\MyBiList\MyBiList\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\project_c#\MyBiList\MyBiList\MyBiList\obj\Debug\netstandard2.0\MyBiList.AssemblyInfoInputs.cache
+C:\project_c#\MyBiList\MyBiList\MyBiList\obj\Debug\netstandard2.0\MyBiList.AssemblyInfo.cs
+C:\project_c#\MyBiList\MyBiList\MyBiList\obj\Debug\netstandard2.0\MyBiList.csproj.CoreCompileInputs.cache
+C:\project_c#\MyBiList\MyBiList\MyBiList\obj\Debug\netstandard2.0\XamlC.stamp
+C:\project_c#\MyBiList\MyBiList\MyBiList\obj\Debug\netstandard2.0\MyBiList.dll
+C:\project_c#\MyBiList\MyBiList\MyBiList\obj\Debug\netstandard2.0\ref\MyBiList.dll
+C:\project_c#\MyBiList\MyBiList\MyBiList\obj\Debug\netstandard2.0\MyBiList.pdb
+C:\project_c#\MyBiList\MyBiList\MyBiList\obj\Debug\netstandard2.0\Views\EnterBiListView.xaml.g.cs
+C:\project_c#\MyBiList\MyBiList\MyBiList\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\project_c#\MyBiList\MyBiList\MyBiList\obj\Debug\netstandard2.0\MyBiList.csproj.AssemblyReference.cache
