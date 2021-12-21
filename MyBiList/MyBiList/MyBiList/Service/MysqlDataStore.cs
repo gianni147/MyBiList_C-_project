@@ -39,12 +39,8 @@ namespace MyBiList.Service
 
         public async Task<bool> DeleteBiList(BiList bilist)
         {
-            Console.WriteLine("test:" + bilist.Idea);
-            Console.WriteLine("test:" + bilist.ID);
-
 
             HttpResponseMessage response = await client.DeleteAsync(ipAdresEmulator + bilist.ID);
-            Console.WriteLine("test2:" + response);
 
             //10.0.2.2
             return response.IsSuccessStatusCode;
